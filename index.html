@@ -18,9 +18,11 @@
 <body>
 
     
-    <div id="map" style="height: 800px;"></div>
+    <div id="map" style="height: 800px;margin-bottom: 15px;"></div>
 
+   
     <div id="authed-section" style="display:block;">
+      <span style="margin-left: 50px; font-size: 20pt; font-weight: bolder;">Click on the lines below!</span>
       <ul id="files"></ul>
     </div>
 
@@ -35,9 +37,10 @@
         li.style.height = "50px"
         li.style.border = "1px solid white"
         li.style.textAlign = "center"
-        li.style.lineHeight = "50px"
+        li.style.lineHeight = "25px"
         li.style.fontWeight = "bold"
         li.style.color = "white"
+        li.style.fontSize = "6pt"
         li.addEventListener("click", (e) => { diaplayMarkers(e) });
         filesContainer.appendChild(li);
       });
