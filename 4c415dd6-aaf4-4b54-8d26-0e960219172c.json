@@ -1,0 +1,526 @@
+{
+  "accountId":151844,
+  "isWebForm":false,
+  "userId":334589,
+  "userName":"onsite1@aogsecurity.com",
+  "formMetaData":{
+    "deviceMetaData":{
+      "appType":"Android",
+      "appName":"FastField",
+      "appVersion":"3.5.2",
+      "device":"borneo",
+      "sdkInt":30,
+      "sdkRelease":"11",
+      "brand":"motorola",
+      "manufacturer":"motorola",
+      "model":"moto g power (2021)",
+      "product":"borneo_retail",
+      "totalMemoryMb":23,
+      "freeMemoryMb":1,
+      "totalDiskMb":17968,
+      "freeDiskMb":838
+    },
+    "startFormTimeStamp":"2024-09-03T18:55:17.902-07:00",
+    "endFormTimeStamp":"2024-09-04T05:56:09.411-07:00",
+    "lookuplistpicker_1":{
+      "selectedNames":[
+        "Cameron Sisan"
+      ],
+      "selectedValues":[
+        "Cameron Sisan"
+      ],
+      "selectedScores":[
+        "0.0"
+      ]
+    },
+    "fieldMetaData":[
+      {
+        "fieldKey":"patrol_1",
+        "subformData":[
+          {
+            "patrol_1_1":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.9597162008285522,
+                  "latitude":47.6321677,
+                  "longitude":-122.1389893,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:35:21.356-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_2":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.9460064768791199,
+                  "latitude":47.6321677,
+                  "longitude":-122.1389896,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:35:34.080-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_3":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8993351459503174,
+                  "latitude":47.6321683,
+                  "longitude":-122.1389892,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:36:14.817-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_4":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8935461044311523,
+                  "latitude":47.6321684,
+                  "longitude":-122.1389891,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:36:06.992-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_5":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8664982914924622,
+                  "latitude":47.6321695,
+                  "longitude":-122.1389891,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:36:53.944-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_6":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8979884386062622,
+                  "latitude":47.6321697,
+                  "longitude":-122.1389895,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:37:03.436-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_7":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8631739020347595,
+                  "latitude":47.63217,
+                  "longitude":-122.1389898,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:37:14.098-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          },
+          {
+            "patrol_1_8":[
+              {
+                "fieldKey":"datepicker_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":0.8542096614837646,
+                  "latitude":47.6321699,
+                  "longitude":-122.1389899,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-04T01:37:27.913-07:00"
+              },
+              {
+                "fieldKey":"location_1",
+                "timestamp":"2024-09-03T22:11:37.281-07:00"
+              },
+              {
+                "fieldKey":"multiline_1",
+                "location":{
+                  "horizontal_accuracy":3.7899999618530273,
+                  "vertical_accuracy":1.1671183109283447,
+                  "latitude":47.7116386,
+                  "longitude":-122.187152,
+                  "isUserDefinedLocation":false
+                },
+                "timestamp":"2024-09-03T19:46:25.934-07:00"
+              },
+              {
+                "fieldKey":"multiphoto_picker_1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "fieldKey":"switchpicker_1",
+        "location":{
+          "horizontal_accuracy":3.8450000286102295,
+          "vertical_accuracy":3.8930675983428955,
+          "latitude":47.6353856,
+          "longitude":-122.1361807,
+          "altitude":81.6367828476412,
+          "isUserDefinedLocation":false
+        },
+        "timestamp":"2024-09-04T05:56:07.926-07:00"
+      }
+    ]
+  },
+  "formId":812907,
+  "formName":"287 - Verde Esterra Park",
+  "submissionId":"4c415dd6-aaf4-4b54-8d26-0e960219172c",
+  "emailRecipientsOnSubmit":"",
+  "dispatchId":0,
+  "formVersion":33,
+  "displayReferenceValue":"Verde Esterra Park - Community Officer Report - 09-03-2024",
+  "creationTimeStamp":"2024-09-03T18:55:17.902-07:00",
+  "submissionTimeStamp":"2024-09-04T05:56:16.011-07:00",
+  "startFormTimeStamp":"2024-09-03T18:55:17.902-07:00",
+  "endFormTimeStamp":"2024-09-04T05:56:09.411-07:00",
+  "updatedAt":"2024-09-04T05:56:16.011-07:00",
+  "tokenId":"",
+  "date":"2024-09-03T18:55:18.163-07:00",
+  "textlabel_2":"10:00 PM",
+  "lookuplistpicker_1":[
+    "Cameron Sisan"
+  ],
+  "CURRENT_USER_VAR":"onsite1@aogsecurity.com",
+  "stage_var":"Form Submit Actions",
+  "photo_picker_1":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_101df6b1-8918-4eaa-8541-2424a05657a9.jpg",
+  "alpha_1":"Clear/Offices, Locked 🔐 & Secure 10:41pm",
+  "photo_picker_2":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_5da1a4f4-534c-4cab-88a9-f962f76f7c47.jpg",
+  "alpha_2":"Clear/No Sign of Homeless Transient Activity .10:44pm",
+  "photo_picker_4":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_baa6d929-0265-4a7d-bba9-f3d9c63777c5.jpg",
+  "alpha_3":"Clear/ 12th Floor Rooftop 10:49",
+  "photo_picker_5":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_4a3a30ab-6128-4ec9-9396-e7a2d2b7a235.jpg",
+  "alpha_4":"Clear/No Issues. Club Room. 10:48pm",
+  "photo_picker_6":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_3343ae6d-9720-44a2-b47e-a5b0aef56795.jpg",
+  "alpha_5":"Clear/No Issues. 10:46pm",
+  "patrol_1":[
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T22:51:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T23:47:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T00:53:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T01:46:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T02:52:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T03:46:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T04:50:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    },
+    {
+      "reserved_instanceGuid":"e3d18cb0-542e-41be-85fa-2f8e2ac916fa",
+      "datepicker_1":"2024-09-04T05:49:00.000-07:00",
+      "location_1":{
+        "horizontal_accuracy":58.888999938964844,
+        "vertical_accuracy":1.1533160209655762,
+        "latitude":47.6354842,
+        "longitude":-122.1362334,
+        "isUserDefinedLocation":false,
+        "selectedMapType":"street",
+        "formatted_address":"2808 Calder Avenue Northeast\nRedmond, Washington  98052\nUnited States"
+      },
+      "textlabel_2":"Patrol Info should cover: \n1) a description of the areas you patrolled this hour\n2) traffic levels this hour (high, medium, low)\n3) any issues or observations to report this hour\n\nNOTE: Hourly patrol times should be random and not occur at the same time every hour. ",
+      "multiline_1":"Patrolling Perimeter at Verde Esterra Park Apartments.\n\nCompleted check of Main Lobby.\nClear/No Sign of Homeless/ Transient Activity.\n\nCompleted check of offices.\nLocked 🔐 & Secure.\n\nCompleted check of Bathrooms.\nClear/No Issues.\n\nCompleted Check of Mailroom.\nClear/No Issues.\n\nCompleted Check of Package Room.\nClear/No Issues.\n\nCompleted Check of Amenities.\nLocked 🔐 & Secure.\n\nCompleted Check of Garage complex.\nClear/No Sign of Homeless/ Transient Activity.",
+      "textlabel_1":"All photos must be accompanied by a narration including: \n1) A description of the photo (what)\n2) The location of the photo and BE SPECIFIC (where)\n3) What action did you take (resolution)",
+      "CURRENT_USER_VAR":"onsite1@aogsecurity.com"
+    }
+  ],
+  "photo_picker_3":"151844_4c415dd6-aaf4-4b54-8d26-0e960219172c_3af14848-34a9-4a46-ba63-e6e6007323c9.jpg",
+  "alpha_6":"Clear/No Sign of Homeless/Transient Activity. ",
+  "textlabel_3":"6:00 AM",
+  "ack":true,
+  "switchpicker_1":true,
+  "alerts":[
+    {
+      "code":"This will be sent to the client!",
+      "description":"",
+      "alertType":"Informational"
+    }
+  ],
+  "reserved_summarySections":[
+    {
+      "sectionKey":"section_2",
+      "subFormSummarySections":[
+        
+      ]
+    }
+  ],
+  "workflowData":{
+    "stage":"Form Submit Actions",
+    "forwardTo":0,
+    "forwardToEmail":"",
+    "stages":[
+      {
+        "name":"Form Submit Actions",
+        "comment":"",
+        "creationTimeStamp":"2024-09-04T05:56:11.882-07:00",
+        "userName":"onsite1@aogsecurity.com",
+        "userId":334589,
+        "fullName":"Onsite Guard 1",
+        "forwardTo":0,
+        "forwardToEmail":""
+      }
+    ]
+  },
+  "submitId":"e0d434da-93d2-41d9-a313-acd491094c3e"
+}

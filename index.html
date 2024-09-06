@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Dropbox Login</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.js" integrity="sha512-djAJLNukP3WdWmwP/Y05w99aCX6u1jInpshdwiUKbXcQ9y/8BpMtsPsVrVyUbmtEx7wbqFpBq4sGOnIFVScFQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.1.0/jszip-utils.js" integrity="sha512-vzp9X4pwJHRiGSEH692sqmRe5R8OQNKSCe1zg38GQoNUGJtnPrwhwKF3lbaFZMsT8ZQ3ppZ8tlLqkJGosi5/CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+
+<body>
+
+    
+    <div id="map" style="height: 800px;"></div>
+
+    <div id="authed-section" style="display:block;">
+      <ul id="files"></ul>
+    </div>
+
+
+  <script>
+    function renderItems(items) {
+      var filesContainer = document.getElementById('files');
+      items.forEach(function(item, idx) {
+        var li = document.createElement('li');
+        li.innerHTML = `${idx} ${item[0].name} - ${item[0].time} -||- ${item[1].name} - ${item[1].time}`;
+        li.id = "li-entry_" + idx
+        li.style.height = "50px"
+        li.style.border = "1px solid white"
+        li.style.textAlign = "center"
+        li.style.lineHeight = "50px"
+        li.style.fontWeight = "bold"
+        li.style.color = "white"
+        li.addEventListener("click", (e) => { diaplayMarkers(e) });
+        filesContainer.appendChild(li);
+      });
+    }
+
+
+
+    var log = console.log
+    var markerList = []
+    var dataList = []
+
+    var myIcon = L.icon({
+      iconUrl: 'marker.png',
+      iconSize: [38, 38],
+      iconAnchor: [22, 94],
+      popupAnchor: [-3, -76],
+      shadowUrl: 'my-icon-shadow.png',
+      shadowSize: [68, 95],
+      shadowAnchor: [22, 94]
+    });
+
+    // setup map and draw points
+    var map = L.map('map').setView([47.677497,-122.170740], 12);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    var layerGroup = L.layerGroup().addTo(map);
+    
+    cc2()
+
+    ////////////////////////////
+    
+    function diaplayMarkers(e) {
+      var item = dataList[e.target.id.split("_")[1]]
+      layerGroup.clearLayers()
+      map.removeLayer(layerGroup)
+      
+      layerGroup = L.layerGroup().addTo(map);
+      
+      log([item[0].lat, item[0].lon])
+      
+      L.marker([item[0].lat, item[0].lon]).addTo(layerGroup)
+      L.marker([item[1].lat, item[1].lon]).addTo(layerGroup)
+    }
+    
+    
+    function aa2() {}
+
+    function bb2() {
+
+    }
+
+    // load file data / call render txt
+    async function cc2() {
+      var fileName = "4c415dd6-aaf4-4b54-8d26-0e960219172c.json"
+      var fileData = JSON.parse(await getFileData(fileName))
+
+      var len = fileData.formMetaData.fieldMetaData[0].subformData.length
+
+      for (var idx = 0; idx < len; idx++) {
+        let data = fileData.formMetaData.fieldMetaData[0].subformData[idx]
+        let item = data[Object.keys(data)[0]]
+
+        var obj = [
+          {
+            name: "datepicker_1",
+            time: new Date(item[0].timestamp).toLocaleString(),
+            lat: item[0].location.latitude,
+            lon: item[0].location.longitude
+          },
+          {
+            name: "mulitline_1",
+
+            time: new Date(item[2].timestamp).toLocaleString(),
+            lat: item[2].location.latitude,
+            lon: item[2].location.longitude
+          }
+        ]
+
+        dataList.push(obj)
+
+      }
+
+      renderItems(dataList)
+    }
+
+    // file from filename.
+    async function getFileData(fileName) {
+      var xmlString = ""
+      await fetch(fileName)
+        .then(response => response.text())
+        .then(fileData => {
+          xmlString = fileData
+        });
+      return xmlString
+    }
+
+
+
+
+    //var layerGroup = L.layerGroup().addTo(map);
+
+    // create markers
+    //L.marker().addTo(layerGroup);
+    // remove all the markers in one go
+    //layerGroup.clearLayers();
+    //map.removeLayer(layerGroup)
+
+    //marker.setIcon(myIcon)
+
+    //layerGroup.clearLayers();
+
+    //marker = L.marker([47.348149, -122.222297]).addTo(layerGroup);
+
+    //var marker2 = L.marker([47.348149, -122.222497], {icon: myIcon}).addTo(map);
+  </script>
+
+</body>
+
+</html>
