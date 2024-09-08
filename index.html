@@ -20,14 +20,17 @@
     
     <div id="map" style="height: 800px;margin-bottom: 15px;"></div>
 
-   
     <div id="authed-section" style="display:block;">
+      <input id="file-upload" type="file"/>
       <span style="margin-left: 50px; font-size: 20pt; font-weight: bolder;">Click on the lines below!</span>
       <ul id="files"></ul>
     </div>
 
 
   <script>
+    var fileUploader = document.getElementById("file-upload")
+    fileUploader.addEventListener("change",(e) => {bb2(e)})
+  
     function renderItems(items) {
       var filesContainer = document.getElementById('files');
       items.forEach(function(item, idx) {
@@ -71,7 +74,7 @@
 
     var layerGroup = L.layerGroup().addTo(map);
     
-    cc2()
+    //cc2()
 
     ////////////////////////////
     
@@ -91,14 +94,32 @@
     
     function aa2() {}
 
-    function bb2() {
-
+    function bb2(e) {
+      if(!e.currentTarget.files[0]) return
+      dataList = []
+      //log(e.currentTarget.files)
+      
+      var file = e.currentTarget.files[0]
+          var fr = new FileReader()
+          fr.onload = () => {
+            //log(fr.result)
+            cc2(fr.result)
+          }
+          fr.readAsText(file)
     }
 
     // load file data / call render txt
-    async function cc2() {
-      var fileName = "4c415dd6-aaf4-4b54-8d26-0e960219172c.json"
-      var fileData = JSON.parse(await getFileData(fileName))
+    function cc2(fileJson) {
+      //var fileName = "4c415dd6-aaf4-4b54-8d26-0e960219172c.json"
+      //var fileData = JSON.parse(await getFileData(fileName))
+      
+      var fileData = JSON.parse(fileJson)
+      
+      if(fileData.formId != 812907 || fileData.formVersion != 33) 
+      {
+        alert("Must be JSON form: id: '812907' name: '287 - Verde Esterra Park version(s)': [33]")
+        return
+      }
 
       var len = fileData.formMetaData.fieldMetaData[0].subformData.length
 
